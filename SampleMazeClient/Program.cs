@@ -12,7 +12,7 @@ namespace SampleMazeClient
             var result = true;
             mazeGame = DependencyFactory.Resolve<IMazeGame>();
             mazeGame.StartNew(new Coordinate(2, 2));
-            //ShowOptions();
+            ShowOptions();
             while (result)
             {
                 var input = Console.ReadKey();
@@ -80,6 +80,7 @@ namespace SampleMazeClient
 
         private static void ShowOptions()
         {
+            Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Press 'N' for new game");
             Console.WriteLine("Press 'S' to solve game");
