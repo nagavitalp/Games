@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="Coordinate.cs" />
+    <Compile Include="DynamicMazeGenerator.cs" />
     <Compile Include="Elements\Destination.cs" />
     <Compile Include="FileMazeGenerator.cs" />
     <Compile Include="IMazeGame.cs" />
